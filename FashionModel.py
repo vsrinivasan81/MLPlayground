@@ -68,7 +68,7 @@ def main():
     print(tf.__version__)
     # Suppress warnings from tensor-flow
     silence_tensorflow()
-    # build and execute a linear regression model
+    # build and execute a model
     build_execute_model(15, 64, random.randint(0, 10000))
 
 
